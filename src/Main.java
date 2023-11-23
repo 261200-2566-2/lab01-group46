@@ -12,7 +12,9 @@ public class Main {
         for (int i = 0; i < n; i++) {
             arr[i] = kb.nextInt();
         }
-
+        sortNum(arr);
+    }
+        private static void sortNum(int[] arr){
         Arrays.sort(arr);
         System.out.println("Sorted numbers:");
         for (int number : arr) {
@@ -20,3 +22,4 @@ public class Main {
         }
     }
 }
+//แก้โค้ดโดยการประกาศmethodsในclass main แล้วนะครับ
